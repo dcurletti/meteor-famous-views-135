@@ -1,0 +1,11 @@
+<template name="famousInit">
+	{{! > famous template='test'}}
+	{{! >famous template='incoming' modifier='pageTransition'}}
+	{{! >famous template='list' view='Scrollview'}}
+</template>
+
+<template name="layout">
+	{{#RenderController transition="slideWindowLeft"}}
+		<div class="bg-green">{{>yield}}</div>
+	{{/RenderController}}
+</template>

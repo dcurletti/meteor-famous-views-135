@@ -1,0 +1,16 @@
+.famous-container {
+	background: -webkit-linear-gradient(top, #40f5ff 0%,#3FBAC2 100%); /* Chrome10+,Safari5.1+ */
+}
+.bg-red {
+	background-color: red;
+}
+.bg-blue {
+	background-color: blue;
+}
+.bg-green {
+	background-color: green;
+}
+.textCenter {
+	text-align: center;
+	vertical-align: middle;
+}
